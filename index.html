@@ -21,7 +21,46 @@ https://templatemo.com/tm-535-softy-pinko
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
+<style>
+	  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  padding-top: 350px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+	  </style>
     </head>
     
     <body>
@@ -69,7 +108,6 @@ https://templatemo.com/tm-535-softy-pinko
 							<br><strong>THE</strong>
 						<br> Inteligent <strong>FIREWALL</strong> that protects
 						<br> NETWORK DATA DEVICES.</h1>
-                         <a href="spesifications.html" class="main-button-slider">More Products</a>
 						<br>
                     </div>
                 </div>
@@ -130,7 +168,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <h2 class="section-title">WHAT IS ARCHANGEL?</h2>
                     </div>
                     <div class="left-text">
-                        <p text align="justify"><strong>ARCHANGEL</strong> © is a smart firewall, which contains 3 firewalls, a dynamic router and a Honey Pot, with 3 smart agents connected to 2 “BRAINS” (Deep Learning Machines).</p>
+                        <p text align="justify"><strong>ARCHANGEL</strong> © is a smart firewall, which contains 3 firewalls, a dynamic router and a Honey Pot, with 3 smart agents connected to 2 “BRAINS” (Deep Learning Machines).</p>
 						<strong>ARCHANGEL</strong>
 						<br>1) create a VPN,
 						<br>2) Filter all inrush currents and
@@ -191,7 +229,7 @@ https://templatemo.com/tm-535-softy-pinko
 			</div>
 				<div class="col-lg-6 col-md-12 col-sm-12 align-self-center col-xl-6" >
                     <div class="left-text">
-					<p align="justify"><h4><strong>Protected by SST©</strong></h4>
+					<p align="justify"><h4><strong>Protected by <a href="http://secure-system-transmission.com/">SST©</a></strong></h4>
 						<br>
 
 					ARCHANGEL© is protected by SST© another product of PT SYDECO (https://sytrasec.com) SST© is replacing the encryption – that needs keys – with another system, based on Artificial Intelligence that does not use any key. It is much more secure. The user of ARCHANGEL© BOX has mediately
@@ -328,19 +366,55 @@ https://templatemo.com/tm-535-softy-pinko
 			<div class="left-text">
                         <p text align="justify">
 							The system developed by PT SYDECO, <strong>ARCHANGEL OW©</strong>, meets all these requirements in that it allows the unidirectional and is completely impermeable to the attacks led even by a quantum computer because its protection and that which it provides are not based on theory of numbers.</p>
-				<br></br>
+				<br>
 			<h1><strong>III – TO PROTECT THE INDUSTRIAL CONTROL SYSTEMS (ICS) ENDPOINTS’:</strong></h1>
-				<br>ARCHANGEL is part of the<strong> ALL-IN-ONE</strong> IT Security Solution from <strong>PT SYDECO</strong> which is a <strong>ZERO TRUST ARCHITECTURE</strong> designed to prevent cyber-attacks such as Ransomware or data breaches. 
+				<p text align="justify"><div class id="myBtn">
+				<br>ARCHANGEL is part of the<strong><a href="https://syde.co/home-new/"> ALL-IN-ONE</a></strong> IT Security Solution from <strong>PT SYDECO</strong> which is a<font color="#0386D9"><strong> ZERO TRUST ARCHITECTURE</strong></font> designed to prevent cyber-attacks such as Ransomware or data breaches. The <strong>ICS</strong> endpoints of the SCADA (Supervisory Control And Data Acquisition) or DCS (Distributed Control System) can be protected by the ALL-IN-ONE system developed by PT SYDECO, which will avoid interrupting activities or services for several days.
+				</p>
+				
+	
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-				The <strong>ICS</strong> endpoints of the SCADA (Supervisory Control And Data Acquisition) or DCS (Distributed Control System) can be protected by the ALL-IN-ONE system developed by PT SYDECO, which will avoid interrupting activities or services for several days.
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>“Zero trust (ZT) is the term for an evolving set of cybersecurity paradigms that move defenses from static, network- based perimeters to focus on users, assets, and resources. A zero trust architecture (ZTA) uses zero trust principles to plan industrial and enterprise infrastructure and workflows. Zero trust assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location (i.e., local area networks versus the internet) or based on asset ownership (enterprise or personally owned)” (1.9.3.1 Architecture Description, Department of Defense (DOD) of the United States of America, Zero Trust Reference Architecture, Version 1.0, February 2021 Prepared by the Joint Defense Information Systems Agency (DISA) and National Security Agency (NSA) Zero Trust Engineering Team).</p>
+  </div>
+
+</div>
+				<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+				</div>
 			<br>
 	<hr>
-			<p align="center"><img src="assets/images/CYBER ATTACK.png"> </p>
-
-							
-						
+			<p align="center"><img src="assets/images/CYBER ATTACK.png"></p>
 			</div>
-        </div>
     </section>
 
 
