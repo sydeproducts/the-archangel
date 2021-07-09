@@ -4,5 +4,3 @@ username = products.syde@gmail.com
 password = 1414131366Syd0!@#
 
 
-INI CARANE NGAB
-
