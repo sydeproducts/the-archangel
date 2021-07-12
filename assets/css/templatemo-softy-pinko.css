@@ -375,7 +375,7 @@ header
 --------------------------------------------- 
 */
 .header-area {
-  top: 10px;
+  top: 20px;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -388,14 +388,16 @@ header
 
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 40px;
+  border-radius: 20px;
   min-height:100px;
   background:#FFFFFF;
 }
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 35px;
+	height: 25px;
+	width: 25px;
+  margin-top: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -549,7 +551,7 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .header-area.header-sticky .nav {
