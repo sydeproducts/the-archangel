@@ -413,14 +413,14 @@ header
 }
 
 .header-area .main-nav {
-  min-height: 80px;
+  min-height: 50px;
   background: transparent;
 }
 
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #191a20;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -671,7 +671,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 10px;
 }
 
 .header-area.header-sticky .nav {
@@ -708,7 +708,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -791,7 +791,7 @@ header
 
 
 .header-area {
-  top: 20px;
+  top: 10px;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -979,7 +979,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color:#0064FF;
 }
 
 @media (max-width: 1200px) {
@@ -1003,7 +1003,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-top: 27px !important;
+    margin-top: 20px !important;
     margin-left: 30px;
   }
   .header-area .menu-trigger {
