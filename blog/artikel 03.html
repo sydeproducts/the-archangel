@@ -26,114 +26,41 @@
 	  
 	  <style>
 		  
-		 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+		  .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
 
-.site-wrapper {
-  background-color: #fff;
-  max-width: 960px;
-  box-sizing: border-box;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 10px 10px 70px rgba(255,255,255,0.5);
-}   
-.item-wrapper {
-  background-color: #fff;
-  width: 500px;
+.dropdown {
   position: relative;
-  overflow: hidden;
-  margin: auto;
-  padding: 4px;
+  display: inline-block;
 }
 
-.item-wrapper .line {
-  background-color: #6c63ff;
+.dropdown-content {
+  display: none;
   position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-.item-wrapper .line span {
-  background-color: #e3e3e3;
-  position: inherit;
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
-  transition: all 0.4s ease-out;
-}
-.item-wrapper .line-top{
-  top: 0;
-  left: 0;
-  width:100%;
-  height:4px;
-}
-.item-wrapper .line-right{
-  top: 0;
-  right: 0;
-  width:4px;
-  height:100%;
-}
-.item-wrapper .line-bottom{
-  right: 0;
-  bottom: 0;
-  width:100%;
-  height:4px;
-}
-.item-wrapper .line-left {
-  left: 0;
-  bottom: 0;
-  width: 4px;
-  height: 100%;
-}
-.item-wrapper .line-top span{
-  top:inherit;
-  left:inherit;
-  width:0;
-  height:100%;
-}
-.item-wrapper .line-right span{
-  top:inherit;
-  right:inherit;
-  width:100%;
-  height:0;
-}
-.item-wrapper .line-bottom span{
-  right:inherit;
-  bottom:inherit;
-  width:0;
-  height:100%;
-}
-.item-wrapper .line-left span {
-  left: inherit;
-  bottom: inherit;
-  width: 100%;
-  height: 0;
-}
-.item-wrapper:hover .line-top span,
-.item-wrapper:hover .line-bottom span{
-  width:100%;
-}
-.item-wrapper:hover .line-left span,
-.item-wrapper:hover .line-right span{
-  height:100%;
-}
-.item-wrapper > .item{
-  padding:40px 30px;
-  text-transform: uppercase;
-  text-align: justify;
-}
-.item-wrapper > .item > h2{
-  font-size: 36px;
-  line-height: 40px;
-}
-.item-wrapper > .item > h2 .title{
-  color:#6c63ff;
-  font-weight: 800;
-}
-.item-wrapper > .item > p{
-  padding:30px 0;
-  font-size: 12px;
-  line-height: 20px;
 }
 
-  
-		  
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+	
 	.unselectable {
         -webkit-user-select: none;
         -webkit-touch-callout: none;
@@ -243,101 +170,59 @@ document.oncontextmenu=new Function("alert(message);return false")
       <div class="row">
         <div class="col-md-6 align-self-center col-lg-12">
           <div class="left-content">
-		   <div class="site-wrapper">
-     <div class="item-wrapper">
-       <div class="line line-top">
-         <span></span>
-       </div>
-       <div class="line line-right">
-        <span></span>
-      </div>
-      <div class="line line-bottom">
-        <span></span>
-      </div>
-      <div class="line line-left">
-        <span></span>
-      </div>
-      <div class="item">
-		  <font color="#131313">
-        <h2>CYBER SECURITY BEST PRACTICES</h2>
-        <p>The basic principles that should guide those who are called upon to create a computer, information or industrial network, or to secure a pre-existing one, are the ZERO TRUST and the MICRO SEGMENTATION of the network regardless of its size.
-		<br>
-		<br>
-		The ZERO TRUST principle applies not only to the individuals in charge, at whatever level of security, but also and above all in the choice and use of the security equipment that will be used to protect the network.....<br>
-			  </p>
 			  <br>
-			  <a href="artikel.html">Read More</a>
-				  </font>
-				  </div>
-				 </div>
-			   </div>
+			  <br>
+			  <div class="dropdown">
+			  <button class="dropbtn">Select a language</button>
+			  <div class="dropdown-content">
+				<a href="artikel 03.html">England</a>
+				<a href="artikel 03-prancis.html">French</a>
+				<a href="#">Indonesia</a>
+			  </div>
 			</div>
-			
-			<!--- Content 2 -->
-			<div class="site-wrapper">
-     <div class="item-wrapper">
-       <div class="line line-top">
-         <span></span>
-       </div>
-       <div class="line line-right">
-        <span></span>
-      </div>
-      <div class="line line-bottom">
-        <span></span>
-      </div>
-      <div class="line line-left">
-        <span></span>
-      </div>
-      <div class="item">
-		  <font color="#131313">
-        <h2>ABOUT THE PASSWORD MANAGER</h2>
-        <p>By the end of 2021, 69% of the population would welcome the purchase of a password manager, even though one in five people would already be using it, according to Security.org.
+			  <br>
+			  <br>
+            <h4>EASE <em> v</em> SAFETY</h4>
+			  <h5 align="justify">
+							  <br>
+							  Although we are in different registers, we can say that just as the BEST is the enemy of GOOD, EASE is the enemy of SECURITY. Two different registers, in fact, since the search for BETTER is the fact of wanting to surpass oneself in the accomplishment of a task and/or in the goal sought, whereas EASE, an expression of laziness, is a destructive element of SAFETY.
 								<br>
 				  <br>
-							If this is true, it's not hard to understand why so many cyber attacks are successful!<br>
+							This reflection also makes sense when applied to the field of computer security.<br>
 				  <br>
-							It is easy to understand the risk of such use when you know what a password manager is and how it works.<br>
+							For example, succumbing to the easy way out by choosing an easy-to-remember password or relying on a third party (Password Manager) to create and manage passwords is the exact opposite of what should be done when you want to prioritise the security of your data or your information system.<br>
+<br>
+							The same is true of the so-called HYPER-CONVERGENT systems that offer a global solution to meet all the IT needs, including the security needs, of its customers. These systems, which are in flagrant contradiction with MICRO SEGMENTATION, the golden rule of any information or industrial security architecture, lead to many disasters. We have seen this with SolarWinds, or with Kaseya, to mention only the best known cases and their tens of thousands of victims. <br>
+<br>
+							When a virus penetrates a hyper-convergent system, all the doors of the system are open to it, whereas if the system is built according to the so-called micro-segmentation architecture, the virus will only be able to attack the part of the system that it has managed to penetrate.
 				  <br>
 				  <br>
-							<h4>WHAT IS A PASSWORD MANAGER ?</h4>.....<br>
-			  </p>
-			  <br>
-			  <a href="artikel 02.html">Read More</a>
-				  </font>
-				  </div>
-				 </div>
-			   </div>
-		  <!--- Akhir Content -->
-	
-		  <!--- Content 3 -->
-		  
-		  <div class="site-wrapper">
-     <div class="item-wrapper">
-       <div class="line line-top">
-         <span></span>
-       </div>
-       <div class="line line-right">
-        <span></span>
-      </div>
-      <div class="line line-bottom">
-        <span></span>
-      </div>
-      <div class="line line-left">
-        <span></span>
-      </div>
-      <div class="item">
-		  <font color="#131313">
-        <h2>EASE v SAFETY</h2>
-        <p>Although we are in different registers, we can say that just as the BEST is the enemy of GOOD, EASE is the enemy of SECURITY. Two different registers, in fact, since the search for BETTER is the fact of wanting to surpass oneself in the accomplishment of a task and/or in the goal sought, whereas EASE, an expression of laziness, is a destructive element of SAFETY.
-			  </p>
-			  <br>
-			  <a href="artikel 03.html">Read More</a>
-				  </font>
-				  </div>
-				 </div>
-			   </div>
-		<!--- Akhir Content -->
-			
+				  It is therefore a choice that every Internet user has to make, between the search for ease and the search for computer security, knowing that in both cases there is a price to pay: While on the one hand, the easy way out risks causing financial damage that can be very significant (loss of data, money, Ransomware,,,), on the other hand, the search for security involves personal investment, in the case of passwords, or financial costs (investments), in the case of the construction of the computer network.
+				  <br>
+In any case, it must be remembered that the human factor (the user) is the weakest link in the security of any computer system and that it is necessary to protect him when he is at home as much as when he is in a professional environment.
+				  <br>
+				  <br>
+If an antivirus is necessary, an intelligent firewall is even more so, especially if it is coupled with a VPN server that does not rely on any external party. This is the protection that PT SYDECO offers with its PICCOLO <a href="https://the-archangel.co/spesifications.html">(https://the-archangel.co/spesifications.html)</a>  which protects the user at home or any IoT or small business, thanks to its intelligent firewall and VPN server.
+				  <br>
+				  <br>
+
+
+			</h5>
+			  <h5>
+				  <br>
+				  <br>
+				  <br>
+				  <a href="Hal-01.html">Back</a>
+				  <br>
+				  <br>
+				  <h4>PT SYDECO</h4>
+				  <a href="https://sydeco.co/ ">https://sydeco.co/ </a>
+
+
+
+				  
+			</h5>
+          </div>
         </div>
       </div>
     </div>
