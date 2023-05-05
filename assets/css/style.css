@@ -105,3 +105,11 @@ body {
 .card-body:hover {
   background-position: left top;
 }
+
+.target-link {
+  color: white;
+}
+
+.target-link:hover {
+  color: red;
+}

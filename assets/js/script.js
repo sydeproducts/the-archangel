@@ -6,13 +6,14 @@ document.addEventListener("contextmenu", (event) => event.preventDefault());
 // attack counter
 const unsucc = document.querySelector(".unsuccessful");
 const succ = document.querySelector(".successful");
-const up = document.querySelector(".update");
 const visit = document.querySelector(".visits");
+const up = document.querySelector(".update");
 
 unsucc.innerText = unsuccessful;
 succ.innerText = successful;
-up.innerText = update;
+// up.innerText = update;
 visit.innerText = visits;
+console.log(visit);
 // end of attack counter
 
 // Get the modal
@@ -25,17 +26,17 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
-btn.onclick = function() {
+btn.onclick = function () {
   modal.style.display = "block";
 };
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 };
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
