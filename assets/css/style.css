@@ -113,3 +113,7 @@ body {
 .target-link:hover {
   color: red;
 }
+
+.visitation {
+  margin-bottom: 1em;
+}
