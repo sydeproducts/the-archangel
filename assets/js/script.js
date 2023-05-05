@@ -13,7 +13,7 @@ unsucc.innerText = unsuccessful;
 succ.innerText = successful;
 // up.innerText = update;
 visit.innerText = visits;
-console.log(visit);
+// console.log(visit);
 // end of attack counter
 
 // Get the modal
