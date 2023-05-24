@@ -117,3 +117,7 @@ body {
 .visitation {
   margin-bottom: 1em;
 }
+
+.atk-number {
+  color: red;
+}
