@@ -1,440 +1,756 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous"
+        />
+        <link rel="icon" href="assets/images/admin-ajax (2).png" />
 
-  <head>
+        <title>IT-SECURITY</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	  <link rel="icon" href="assets/images/admin-ajax (2).png">
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>IT-SECURITY</title>
-    
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/css/templatemo-grad-school.css" />
+        <link rel="stylesheet" href="assets/css/owl.css" />
+        <link rel="stylesheet" href="assets/css/lightbox.css" />
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-	  
-	  <style>
-		  
-		  .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+        <style>
+            .dropbtn {
+                background-color: #04aa6d;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
 
-.dropdown-content a:hover {background-color: #ddd;}
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
 
-.dropdown:hover .dropdown-content {display: block;}
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-	
-	.unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-		
-		
-	  </style>
-<!--
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+
+            .unselectable {
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
+        <!--
     
 TemplateMo 557 Grad School
 
 https://templatemo.com/tm-557-grad-school
 
 -->
-  </head>
+    </head>
 
-<body div class="unselectable">
-<script language=JavaScript>
+    <body div class="unselectable">
+        <script language="JavaScript">
+            //Disable right mouse click Script
+            //By Geek Site.in
 
+            var message = "Disabled Right Click!";
 
-//Disable right mouse click Script
-//By Geek Site.in
+            ///////////////////////////////////
+            function clickIE4() {
+                if (event.button == 2) {
+                    alert(message);
+                    return false;
+                }
+            }
 
+            function clickNS4(e) {
+                if (
+                    document.layers ||
+                    (document.getElementById && !document.all)
+                ) {
+                    if (e.which == 2 || e.which == 3) {
+                        alert(message);
+                        return false;
+                    }
+                }
+            }
 
-var message="Disabled Right Click!";
+            if (document.layers) {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = clickNS4;
+            } else if (document.all && !document.getElementById) {
+                document.onmousedown = clickIE4;
+            }
 
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
+            document.oncontextmenu = new Function(
+                "alert(message);return false"
+            );
 
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
+            // -->
+        </script>
 
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
+        <!--header-->
 
-document.oncontextmenu=new Function("alert(message);return false")
+        <!--header-->
+        <header class="main-header clearfix" role="header">
+            <div class="logo">
+                <a href="/"
+                    ><em>Sydeco</em>
+                    <img src="assets/images/icon browser  2.png"
+                /></a>
+            </div>
+            <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+            <nav id="menu" class="main-nav" role="navigation">
+                <ul class="main-menu">
+                    <li>
+                        <a href="/" rel="sponsored" class="external">Home</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">About</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="About/About-Greeting/About-Greeting.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Greeting</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="About/About-Company-Profile/About-Company-Profile.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Profile</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="About/About-Company-Values/About-Company-Values.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Values</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="About/About-Code-of-Conduct/About-Code-of-Conduct.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Code of Conduct</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="tersmofuse.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Terms of Use</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">Products</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="https://syde.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >All-In-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sp-one.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SP-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://secure-system-transmission.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SST</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://the-archangel.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Archangel</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sydechat.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeChat</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://syde.co/sydecloud/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeCloud</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#section5">Video</a></li> -->
+                    <li>
+                        <a href="https://sydeconewsblog.blogspot.com/">Blog</a>
+                    </li>
+                    <li><a href="#section6">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-// --> 
-</script>
-	
-   
-  <!--header-->
-  
-  <!--header-->
- 	<header class="main-header clearfix" role="header">
-    <div class="logo">
-      <a href="index.html"><em>Sydeco</em> <img src="assets/images/icon browser  2.png"></a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="index.html" rel="sponsored" class="external">Home</a></li>
-        <li class="has-submenu"><a href="#section2">About</a>
-          <ul class="sub-menu">
-            <li><a href="About/About-Greeting/About-Greeting.html" rel="sponsored" class="external">Greeting</a></li>
-            <li><a href="About/About-Company-Profile/About-Company-Profile.html" rel="sponsored" class="external">Company Profile</a></li>
-            <li><a href="About/About-Company-Values/About-Company-Values.html" rel="sponsored" class="external">Company Values</a></li>
-            <li><a href="About/About-Code-of-Conduct/About-Code-of-Conduct.html" rel="sponsored" class="external">Code of Conduct</a></li>
-			<li><a href="tersmofuse.html" rel="sponsored" class="external">Terms of Use</a></li>
-          </ul>
-        </li>
-		<li class="has-submenu"><a href="#section2">Products</a>
-          <ul class="sub-menu">
-            <li><a href="https://syde.co/" rel="sponsored" class="external">All-In-One</a></li>
-			<li><a href="https://sp-one.co/" rel="sponsored" class="external">SP-One</a></li>
-			<li><a href="https://secure-system-transmission.com/" rel="sponsored" class="external">SST</a></li>
-			<li><a href="https://the-archangel.co/" rel="sponsored" class="external">Archangel</a></li>
-			<li><a href="https://sydechat.com/" rel="sponsored" class="external">SydeChat</a></li>
-			<li><a href="https://syde.co/sydecloud/" rel="sponsored" class="external">SydeCloud</a></li>
-          </ul>
-        </li>
-        <!-- <li><a href="#section5">Video</a></li> -->
-		  <li><a href="https://sydeconewsblog.blogspot.com/">Blog</a></li>
-        <li><a href="#section6">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-	
-    <!-- ***** Header Area End ***** -->
+        <!-- ***** Header Area End ***** -->
 
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center col-lg-12">
-          <div class="left-content">
-			  <br>
-			  <br>
-			  <div class="dropdown">
-			  <button class="dropbtn">Select a language</button>
-			  <div class="dropdown-content">
-				<a href="artikel.html">England</a>
-				<a href="artikel-prancis.html">French</a>
-				<a href="artikel-indo.html">Indonesia</a>
-			  </div>
-			</div>
-			  <br>
-			  <br>
-            <h4>CYBER SECURITY<em> BEST</em> PRACTICES</h4>
-			  <h5 align="justify">
-							  <br>
-							  The basic principles that should guide those who are called upon to create a computer, information or industrial network, or to secure a pre-existing one, are the ZERO TRUST and the MICRO SEGMENTATION of the network regardless of its size.
-								<br>
-				  <br>
-							The ZERO TRUST principle applies not only to the individuals in charge, at whatever level of security, but also and above all in the choice and use of the security equipment that will be used to protect the network.<br>
-				  <br>
-							Thus, one must avoid settling for a simple application to be deployed in a replacement server or purchased for the cause without knowing all its characteristics and its suitability for the needs of the application if one wants to avoid the risk of perpetuating a pre-existing contamination or malfunctioning of the program.<br>
-<br>
-							It is also important to avoid, as far as possible, the intervention of a third party when using the network's functions. I am thinking here of the Cloud, whose negative points and associated risks are well known, or of online file-sharing systems offered by companies outside the network. <br>
-<br>
-							The principle of MICRO SEGMENTATION is intended to limit the damage in the event that an attacker manages to get a virus into the network. By adhering to this principle when designing the network security architecture, if an attack is successful, it will only affect the segment of the network that it has successfully penetrated.<br> <br>
-				  This principle means that connections between computers on the same network should be avoided and direct, unprotected access between users and servers should be avoided. <br>
-Above all, you should not trust hyper-converged systems that deliver everything in one program, including your computer security. We all remember the SolarWinds disaster. <br> <br>
-In industrial or information networks of large entities, departments should be separated and access to departmental servers should be restricted to those who need them. <br> <br>
-				 
-With this in mind and applying these basic principles of perfect cyber security, PT SYDECO has created ARCHANGEL, an 
-				  <br>
-				  <br>
+        <section class="section video" data-section="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center col-lg-12">
+                        <div class="left-content">
+                            <br />
+                            <br />
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    Select a language
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="artikel.html">England</a>
+                                    <a href="artikel-prancis.html">French</a>
+                                    <a href="artikel-indo.html">Indonesia</a>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <h4>CYBER SECURITY<em> BEST</em> PRACTICES</h4>
+                            <h5 align="justify">
+                                <br />
+                                The basic principles that should guide those who
+                                are called upon to create a computer,
+                                information or industrial network, or to secure
+                                a pre-existing one, are the ZERO TRUST and the
+                                MICRO SEGMENTATION of the network regardless of
+                                its size.
+                                <br />
+                                <br />
+                                The ZERO TRUST principle applies not only to the
+                                individuals in charge, at whatever level of
+                                security, but also and above all in the choice
+                                and use of the security equipment that will be
+                                used to protect the network.<br />
+                                <br />
+                                Thus, one must avoid settling for a simple
+                                application to be deployed in a replacement
+                                server or purchased for the cause without
+                                knowing all its characteristics and its
+                                suitability for the needs of the application if
+                                one wants to avoid the risk of perpetuating a
+                                pre-existing contamination or malfunctioning of
+                                the program.<br />
+                                <br />
+                                It is also important to avoid, as far as
+                                possible, the intervention of a third party when
+                                using the network's functions. I am thinking
+                                here of the Cloud, whose negative points and
+                                associated risks are well known, or of online
+                                file-sharing systems offered by companies
+                                outside the network. <br />
+                                <br />
+                                The principle of MICRO SEGMENTATION is intended
+                                to limit the damage in the event that an
+                                attacker manages to get a virus into the
+                                network. By adhering to this principle when
+                                designing the network security architecture, if
+                                an attack is successful, it will only affect the
+                                segment of the network that it has successfully
+                                penetrated.<br />
+                                <br />
+                                This principle means that connections between
+                                computers on the same network should be avoided
+                                and direct, unprotected access between users and
+                                servers should be avoided. <br />
+                                Above all, you should not trust hyper-converged
+                                systems that deliver everything in one program,
+                                including your computer security. We all
+                                remember the SolarWinds disaster. <br />
+                                <br />
+                                In industrial or information networks of large
+                                entities, departments should be separated and
+                                access to departmental servers should be
+                                restricted to those who need them. <br />
+                                <br />
 
+                                With this in mind and applying these basic
+                                principles of perfect cyber security, PT SYDECO
+                                has created ARCHANGEL, an
+                                <br />
+                                <br />
+                            </h5>
 
-			</h5>
-			  
-			  <h4>INTEGRATED SYSTEM OF<em>  DEFENCE AGAINST CYBER ATTACKS.</em></h4>
-			  <h5 align="justify">
-							  <br>
-							  Hackers must penetrate a system and introduce a virus or worm of their choice, whether it is a Trojan horse such as EMOTET which is a Trojan-Dropper injector whose objective is to install other malicious objects or any other Ransomware, such as MAZE, SODINOKIBI, REvil, CLAP, NEMTY... to name but a few, most of which use the double extortion system, if they want to steal data, encrypt it to obtain a ransom or simply to cause harm.
-								<br>
-				  <br>
-							There are at least 7 ways to do this, almost all of which require action on the part of the victim.
-							By far the most common method is social engineering. It includes phishing (spearfishing, smishing, vishing...) and the game is usually to manipulate vulnerable targets into one of three types of behaviour: clicking on a fraudulent link, opening a malicious attachment or entering data into a booby-trapped input field, such as a fake login page on (what appears to be) a corporate website.
-					<br>
-				  <br>
-							Methods that involve manipulation of the victim include phishing and social engineering, infection via a compromised website, exploit kits that provide custom malware, infected files and application downloads, and email applications as infection vectors.
-				  	<br>
-				  <br>
-					<br>
-							On the other hand, victim intervention is not necessary when cybercriminals use brute force such as RDP (Remote Desktop Protocol) or malicious advertising and browser intrusion of common advertisements on websites where they can insert malicious code that will download the ransomware as soon as an advertisement appears.<br>
-					<br>
-							In all cases, the user's e-mail is the company's entry point.
-				  <br>
-				  <br>
-				  The best way to protect a computer system is to know the means used by attackers to achieve their goals.
-				  <br>
-				  <br>
-This is what PT SYDECO researchers have done to create the ARCHANGEL integrated protection system.
-Of course, user education is necessary, even indispensable, but since mistakes are human, even the best network administrator is not immune to an inadvertent mistake.
-				  <br>
-				  <br>
-It is also essential to block or at least reduce access within a company to the sites that are most used by hackers, such as Facebook, WhatsApp, Amazon, Apple and Netflix, which, according to Kaspersky Security Network (KSN), were the subject of 4.5 million, 3.7 million, 3.3 million, 3.1 million and 2.7 million phishing attempts respectively in the period from April to September 2020.
-				  <br>
-				  <br>
-In these conditions, it was necessary to create a system that protects a network against threats (which can be a cyber attack as well as the intervention of a man in the middle) coming from the outside world (Internet) but also against those coming from the network itself through the voluntary or involuntary fault of one of its users, whether they work within the company or outside it.
-				  <br>
-				  <br>
-Similarly, it has been found that protection provided by a simple program that a user would install in a server or PC that he/she owns or acquires, offers no guarantee of security, as the host device may contain a backdoor or be already contaminated or affected by a rootkit. This is why the ARCHANGEL integrated protection system is installed in hardware created and supplied by PT SYDECO.
-				  <br>
-				  <br>
-It soon became clear that a simple firewall could not fulfill these tasks. 
-The ARCHANGEL integrated system, which combines a new generation firewall (ARCHANGEL©), a keyless encryption system (SST©), a VPN server and an online file sharing system (SydeCloud©) in one box, meets these needs.
-				  <br>
-				  <br>
-				  <br>
-				  <br>
-				  <h4><em>1. ARCHANGEL©</em> , next generation firewall</h4>
-				  <br>
-				  -	Can autonomously block code execution from phishing attacks - whether that is a malicious attachment or fileless malware executing in memory.
-				  <br>
-				  <br>
-				  -	Includes, its own operating system and, in addition to 3 firewalls, the third being designed to prevent lateral contamination within the same network, a honey pot, a router with IDS and IPS, 3 intelligent agents.
-				  <br>
-				  <br>
-				  -	But, whereas the function of a firewall is only to block traffic with regard to its signature, thus preventing it from blocking traffic when its signature is encrypted, thus hidden, ARCHANGEL blocks the execution of all programs, whether they are encrypted or not. This is the reason why ARCHANGEL must be installed after a proxi (intermediary between the network and the internet access, usually provided by the internet provider).
-				  <br>
-				  
-				  <h4><em>2. SST©</em> ,Keyless Encryption System, POSTQUANTUM SAFE</h4>
-				  <br>
-				  -	This system, created by PT SYDECO, does not use any keys. It is part of the system because it protects passwords. Indeed, traditional cryptography is based on algorithms, mathematical functions which do not resist more than one second to an attack by a Quantum Computer.
-				  <br>
-				  <br>
+                            <h4>
+                                INTEGRATED SYSTEM OF<em>
+                                    DEFENCE AGAINST CYBER ATTACKS.</em
+                                >
+                            </h4>
+                            <h5 align="justify">
+                                <br />
+                                Hackers must penetrate a system and introduce a
+                                virus or worm of their choice, whether it is a
+                                Trojan horse such as EMOTET which is a
+                                Trojan-Dropper injector whose objective is to
+                                install other malicious objects or any other
+                                Ransomware, such as MAZE, SODINOKIBI, REvil,
+                                CLAP, NEMTY... to name but a few, most of which
+                                use the double extortion system, if they want to
+                                steal data, encrypt it to obtain a ransom or
+                                simply to cause harm.
+                                <br />
+                                <br />
+                                There are at least 7 ways to do this, almost all
+                                of which require action on the part of the
+                                victim. By far the most common method is social
+                                engineering. It includes phishing (spearfishing,
+                                smishing, vishing...) and the game is usually to
+                                manipulate vulnerable targets into one of three
+                                types of behaviour: clicking on a fraudulent
+                                link, opening a malicious attachment or entering
+                                data into a booby-trapped input field, such as a
+                                fake login page on (what appears to be) a
+                                corporate website.
+                                <br />
+                                <br />
+                                Methods that involve manipulation of the victim
+                                include phishing and social engineering,
+                                infection via a compromised website, exploit
+                                kits that provide custom malware, infected files
+                                and application downloads, and email
+                                applications as infection vectors.
+                                <br />
+                                <br />
+                                <br />
+                                On the other hand, victim intervention is not
+                                necessary when cybercriminals use brute force
+                                such as RDP (Remote Desktop Protocol) or
+                                malicious advertising and browser intrusion of
+                                common advertisements on websites where they can
+                                insert malicious code that will download the
+                                ransomware as soon as an advertisement
+                                appears.<br />
+                                <br />
+                                In all cases, the user's e-mail is the company's
+                                entry point.
+                                <br />
+                                <br />
+                                The best way to protect a computer system is to
+                                know the means used by attackers to achieve
+                                their goals.
+                                <br />
+                                <br />
+                                This is what PT SYDECO researchers have done to
+                                create the ARCHANGEL integrated protection
+                                system. Of course, user education is necessary,
+                                even indispensable, but since mistakes are
+                                human, even the best network administrator is
+                                not immune to an inadvertent mistake.
+                                <br />
+                                <br />
+                                It is also essential to block or at least reduce
+                                access within a company to the sites that are
+                                most used by hackers, such as Facebook,
+                                WhatsApp, Amazon, Apple and Netflix, which,
+                                according to Kaspersky Security Network (KSN),
+                                were the subject of 4.5 million, 3.7 million,
+                                3.3 million, 3.1 million and 2.7 million
+                                phishing attempts respectively in the period
+                                from April to September 2020.
+                                <br />
+                                <br />
+                                In these conditions, it was necessary to create
+                                a system that protects a network against threats
+                                (which can be a cyber attack as well as the
+                                intervention of a man in the middle) coming from
+                                the outside world (Internet) but also against
+                                those coming from the network itself through the
+                                voluntary or involuntary fault of one of its
+                                users, whether they work within the company or
+                                outside it.
+                                <br />
+                                <br />
+                                Similarly, it has been found that protection
+                                provided by a simple program that a user would
+                                install in a server or PC that he/she owns or
+                                acquires, offers no guarantee of security, as
+                                the host device may contain a backdoor or be
+                                already contaminated or affected by a rootkit.
+                                This is why the ARCHANGEL integrated protection
+                                system is installed in hardware created and
+                                supplied by PT SYDECO.
+                                <br />
+                                <br />
+                                It soon became clear that a simple firewall
+                                could not fulfill these tasks. The ARCHANGEL
+                                integrated system, which combines a new
+                                generation firewall (ARCHANGEL©), a keyless
+                                encryption system (SST©), a VPN server and an
+                                online file sharing system (SydeCloud©) in one
+                                box, meets these needs.
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <h4>
+                                    <em>1. ARCHANGEL©</em> , next generation
+                                    firewall
+                                </h4>
+                                <br />
+                                - Can autonomously block code execution from
+                                phishing attacks - whether that is a malicious
+                                attachment or fileless malware executing in
+                                memory.
+                                <br />
+                                <br />
+                                - Includes, its own operating system and, in
+                                addition to 3 firewalls, the third being
+                                designed to prevent lateral contamination within
+                                the same network, a honey pot, a router with IDS
+                                and IPS, 3 intelligent agents.
+                                <br />
+                                <br />
+                                - But, whereas the function of a firewall is
+                                only to block traffic with regard to its
+                                signature, thus preventing it from blocking
+                                traffic when its signature is encrypted, thus
+                                hidden, ARCHANGEL blocks the execution of all
+                                programs, whether they are encrypted or not.
+                                This is the reason why ARCHANGEL must be
+                                installed after a proxi (intermediary between
+                                the network and the internet access, usually
+                                provided by the internet provider).
+                                <br />
 
--	SST is not based on a mathematical method and is therefore QUANTUM SAFE.
-				  <br>
-				  <br>
--	SST protects the network against brute force attacks.
-				  <br>
-				  <br>
--	If users download SST into their work tools, their data will also be protected by SST.
-				  
-				  <h4><em>3. VPN SERVER, </em> integrated in ARCHANGEL</h4>
-				  <br>
-				  -	A VPN server is integrated in the system and is therefore protected by ARCHANGEL.
-				  <br>
-				  <br>
--	It creates as many private tunnels as there are connected devices, whether these devices are end-points, servers that are not connected by cable, smartphones, Iot,... used in the network. 
-				  <br>
-				  <br>
--	It is essential that only devices connected by VPN can be used in the computer network protected by ARCHANGEL.
-				  <br>
-				  <h4><em>SydeCloud©, </em> online file sharing system</h4>
-				  <br>
-				  -	The systems generally used, such as Google Drive for example, involve a third party who has access to everything that passes through the application. Data confidentiality is not respected. 
-				  <br>
-				  <br>
+                                <h4>
+                                    <em>2. SST©</em> ,Keyless Encryption System,
+                                    POSTQUANTUM SAFE
+                                </h4>
+                                <br />
+                                - This system, created by PT SYDECO, does not
+                                use any keys. It is part of the system because
+                                it protects passwords. Indeed, traditional
+                                cryptography is based on algorithms,
+                                mathematical functions which do not resist more
+                                than one second to an attack by a Quantum
+                                Computer.
+                                <br />
+                                <br />
 
--	Since the SydeCloud server is in the company, no third party intervenes in the transmission of files: the confidentiality of data passing through the system is protected.
-				  <br>
-				  <br>
+                                - SST is not based on a mathematical method and
+                                is therefore QUANTUM SAFE.
+                                <br />
+                                <br />
+                                - SST protects the network against brute force
+                                attacks.
+                                <br />
+                                <br />
+                                - If users download SST into their work tools,
+                                their data will also be protected by SST.
 
--	The SydeCloud server itself is protected by ARCHANGEL and SST.
-				  <br>
-				  
-				<h4>CONCLUSIONS</h4>
-				  <br>
-				  The ARCHANGEL - SST - SydeCloud integrated system ensures total protection of a computer network, whether it is an industrial or information network.
-				  <br>
-It protects work tools, both hardware and software, against any attack from the outside world or from within the network itself.
-				  <br>
-It protects the data, its backup and its transmission against any attack from the outside world or from inside the network itself or against any breach of confidentiality.
-				  <br>
-It protects the proper functioning of the computer network.
-				  <br>
-				  <br>
-				  <h4>PT SYDECO</h4>
-				  <a href="https://sydeco.co/ ">https://sydeco.co/ </a>
+                                <h4>
+                                    <em>3. VPN SERVER, </em> integrated in
+                                    ARCHANGEL
+                                </h4>
+                                <br />
+                                - A VPN server is integrated in the system and
+                                is therefore protected by ARCHANGEL.
+                                <br />
+                                <br />
+                                - It creates as many private tunnels as there
+                                are connected devices, whether these devices are
+                                end-points, servers that are not connected by
+                                cable, smartphones, Iot,... used in the network.
+                                <br />
+                                <br />
+                                - It is essential that only devices connected by
+                                VPN can be used in the computer network
+                                protected by ARCHANGEL.
+                                <br />
+                                <h4>
+                                    <em>SydeCloud©, </em> online file sharing
+                                    system
+                                </h4>
+                                <br />
+                                - The systems generally used, such as Google
+                                Drive for example, involve a third party who has
+                                access to everything that passes through the
+                                application. Data confidentiality is not
+                                respected.
+                                <br />
+                                <br />
 
+                                - Since the SydeCloud server is in the company,
+                                no third party intervenes in the transmission of
+                                files: the confidentiality of data passing
+                                through the system is protected.
+                                <br />
+                                <br />
 
+                                - The SydeCloud server itself is protected by
+                                ARCHANGEL and SST.
+                                <br />
 
-				  
-			</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                                <h4>CONCLUSIONS</h4>
+                                <br />
+                                The ARCHANGEL - SST - SydeCloud integrated
+                                system ensures total protection of a computer
+                                network, whether it is an industrial or
+                                information network.
+                                <br />
+                                It protects work tools, both hardware and
+                                software, against any attack from the outside
+                                world or from within the network itself.
+                                <br />
+                                It protects the data, its backup and its
+                                transmission against any attack from the outside
+                                world or from inside the network itself or
+                                against any breach of confidentiality.
+                                <br />
+                                It protects the proper functioning of the
+                                computer network.
+                                <br />
+                                <br />
+                                <h4>PT SYDECO</h4>
+                                <a href="https://sydeco.co/ "
+                                    >https://sydeco.co/
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
+        <section class="section contact" data-section="section6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h2>Let’s Keep In Touch</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Do you need a working HTML contact-form script?
                 	
                     Please visit https://templatemo.com/contact page -->
-                    
-          <form name="contact sydeco.co" method="POST" data-netlify="true">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
+
+                        <form
+                            name="contact sydeco.co"
+                            method="POST"
+                            data-netlify="true"
+                        >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="email"
+                                            type="text"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Your Email"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <textarea
+                                            name="message"
+                                            rows="6"
+                                            class="form-control"
+                                            id="message"
+                                            placeholder="Your message..."
+                                            required=""
+                                        ></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <button
+                                            type="submit"
+                                            value="send Message"
+                                            class="button"
+                                        >
+                                            Send Message Now
+                                        </button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map">
+                            <div class="text-center">
+                                <img src="assets/images/admin-ajax (2).png" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" value="send Message" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
             </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-			  <div class="text-center">
-            	<img src="assets/images/admin-ajax (2).png">
-			  </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright 2020 by PT. SYDECO
-        </div>
-      </div>
-    </div>
-  </footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            <i class="fa fa-copyright"></i> Copyright 2020 by
+                            PT. SYDECO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/lightbox.js"></script>
+        <script src="assets/js/tabs.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/slick-slider.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script>
+            //according to loftblog tut
+            $(".nav li:first").addClass("active");
 
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
+            var showSection = function showSection(section, isAnimate) {
+                var direction = section.replace(/#/, ""),
+                    reqSection = $(".section").filter(
+                        '[data-section="' + direction + '"]'
+                    ),
+                    reqSectionPos = reqSection.offset().top - 0;
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+                if (isAnimate) {
+                    $("body, html").animate(
+                        {
+                            scrollTop: reqSectionPos,
+                        },
+                        800
+                    );
+                } else {
+                    $("body, html").scrollTop(reqSectionPos);
+                }
+            };
 
-        };
+            var checkSection = function checkSection() {
+                $(".section").each(function () {
+                    var $this = $(this),
+                        topEdge = $this.offset().top - 80,
+                        bottomEdge = topEdge + $this.height(),
+                        wScroll = $(window).scrollTop();
+                    if (topEdge < wScroll && bottomEdge > wScroll) {
+                        var currentId = $this.data("section"),
+                            reqLink = $("a").filter(
+                                "[href*=\\#" + currentId + "]"
+                            );
+                        reqLink
+                            .closest("li")
+                            .addClass("active")
+                            .siblings()
+                            .removeClass("active");
+                    }
+                });
+            };
 
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
+            $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
+                if ($(e.target).hasClass("external")) {
+                    return;
+                }
+                e.preventDefault();
+                $("#menu").removeClass("active");
+                showSection($(this).attr("href"), true);
+            });
 
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-</body>
+            $(window).scroll(function () {
+                checkSection();
+            });
+        </script>
+    </body>
 </html>

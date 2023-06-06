@@ -1,419 +1,691 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous"
+        />
+        <link rel="icon" href="assets/images/admin-ajax (2).png" />
 
-  <head>
+        <title>IT-SECURITY</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	  <link rel="icon" href="assets/images/admin-ajax (2).png">
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>IT-SECURITY</title>
-    
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/css/templatemo-grad-school.css" />
+        <link rel="stylesheet" href="assets/css/owl.css" />
+        <link rel="stylesheet" href="assets/css/lightbox.css" />
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-	  
-	  <style>
-		  
-		  .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+        <style>
+            .dropbtn {
+                background-color: #04aa6d;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
 
-.dropdown-content a:hover {background-color: #ddd;}
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
 
-.dropdown:hover .dropdown-content {display: block;}
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-	
-	.unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-		
-		
-	  </style>
-<!--
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+
+            .unselectable {
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
+        <!--
     
 TemplateMo 557 Grad School
 
 https://templatemo.com/tm-557-grad-school
 
 -->
-  </head>
+    </head>
 
-<body div class="unselectable">
-<script language=JavaScript>
+    <body div class="unselectable">
+        <script language="JavaScript">
+            //Disable right mouse click Script
+            //By Geek Site.in
 
+            var message = "Disabled Right Click!";
 
-//Disable right mouse click Script
-//By Geek Site.in
+            ///////////////////////////////////
+            function clickIE4() {
+                if (event.button == 2) {
+                    alert(message);
+                    return false;
+                }
+            }
 
+            function clickNS4(e) {
+                if (
+                    document.layers ||
+                    (document.getElementById && !document.all)
+                ) {
+                    if (e.which == 2 || e.which == 3) {
+                        alert(message);
+                        return false;
+                    }
+                }
+            }
 
-var message="Disabled Right Click!";
+            if (document.layers) {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = clickNS4;
+            } else if (document.all && !document.getElementById) {
+                document.onmousedown = clickIE4;
+            }
 
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
+            document.oncontextmenu = new Function(
+                "alert(message);return false"
+            );
 
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
+            // -->
+        </script>
 
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
+        <!--header-->
 
-document.oncontextmenu=new Function("alert(message);return false")
+        <!--header-->
+        <header class="main-header clearfix" role="header">
+            <div class="logo">
+                <a href="/"
+                    ><em>Sydeco</em>
+                    <img src="assets/images/icon browser  2.png"
+                /></a>
+            </div>
+            <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+            <nav id="menu" class="main-nav" role="navigation">
+                <ul class="main-menu">
+                    <li>
+                        <a href="/" rel="sponsored" class="external">Home</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">About</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="../About/About-Greeting/About-Greeting.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Greeting</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Company-Profile/About-Company-Profile.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Profile</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Company-Values/About-Company-Values.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Values</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Code-of-Conduct/About-Code-of-Conduct.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Code of Conduct</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../TermsofUse.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Terms of Use</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">Products</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="https://syde.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >All-In-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sp-one.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SP-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://secure-system-transmission.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SST</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://the-archangel.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Archangel</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sydechat.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeChat</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://syde.co/sydecloud/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeCloud</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#section5">Video</a></li> -->
+                    <li class="has-submenu">
+                        <a href="#section2">Blog</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="https://sydeconewsblog.blogspot.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Blooger</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Hal-01.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Artikel</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#section6">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-// --> 
-</script>
-	
-   
-  <!--header-->
-  
-  <!--header-->
- 	<header class="main-header clearfix" role="header">
-    <div class="logo">
-      <a href="../index.html"><em>Sydeco</em> <img src="assets/images/icon browser  2.png"></a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="../index.html" rel="sponsored" class="external">Home</a></li>
-        <li class="has-submenu"><a href="#section2">About</a>
-          <ul class="sub-menu">
-            <li><a href="../About/About-Greeting/About-Greeting.html" rel="sponsored" class="external">Greeting</a></li>
-            <li><a href="../About/About-Company-Profile/About-Company-Profile.html" rel="sponsored" class="external">Company Profile</a></li>
-            <li><a href="../About/About-Company-Values/About-Company-Values.html" rel="sponsored" class="external">Company Values</a></li>
-            <li><a href="../About/About-Code-of-Conduct/About-Code-of-Conduct.html" rel="sponsored" class="external">Code of Conduct</a></li>
-			<li><a href="../TermsofUse.html" rel="sponsored" class="external">Terms of Use</a></li>
-          </ul>
-        </li>
-		<li class="has-submenu"><a href="#section2">Products</a>
-          <ul class="sub-menu">
-            <li><a href="https://syde.co/" rel="sponsored" class="external">All-In-One</a></li>
-			<li><a href="https://sp-one.co/" rel="sponsored" class="external">SP-One</a></li>
-			<li><a href="https://secure-system-transmission.com/" rel="sponsored" class="external">SST</a></li>
-			<li><a href="https://the-archangel.co/" rel="sponsored" class="external">Archangel</a></li>
-			<li><a href="https://sydechat.com/" rel="sponsored" class="external">SydeChat</a></li>
-			<li><a href="https://syde.co/sydecloud/" rel="sponsored" class="external">SydeCloud</a></li>
-          </ul>
-        </li>
-        <!-- <li><a href="#section5">Video</a></li> -->
-		  <li class="has-submenu"><a href="#section2">Blog</a>
-          <ul class="sub-menu">
-            <li><a href="https://sydeconewsblog.blogspot.com/" rel="sponsored" class="external">Blooger</a></li>
-			<li><a href="Hal-01.html" rel="sponsored" class="external">Artikel</a></li>
-          </ul>
-        </li>
-        <li><a href="#section6">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-	
-    <!-- ***** Header Area End ***** -->
+        <!-- ***** Header Area End ***** -->
 
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center col-lg-12">
-          <div class="left-content">
-			  
-            <h4>ABOUT THE<em> PASSWORD</em> MANAGER</h4>
-			  <h5 align="justify">
-							  <br>
-							  By the end of 2021, 69% of the population would welcome the purchase of a password manager, even though one in five people would already be using it, according to Security.org.
-								<br>
-				  <br>
-							If this is true, it's not hard to understand why so many cyber attacks are successful!<br>
-				  <br>
-							It is easy to understand the risk of such use when you know what a password manager is and how it works.<br>
-				  <br>
-				  <br>
-							<h4>WHAT IS A PASSWORD MANAGER ?</h4>
-				  <br>
-							There are several definitions of a password manager. We can talk about a computer program that allows users to store, generate and manage their passwords, about an encrypted digital safe that store all your passwords, but the best definition must be sought from the objective pursued by the companies that create them and promote their use. 
-				  <br>
-				  <br>
-				  			The underlying idea is to allow a user to have at any time and in any place all the passwords he uses by memorizing or retaining only one, the one which gives him access to all his passwords, i.e. the password manager.
-				  <br>
+        <section class="section video" data-section="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center col-lg-12">
+                        <div class="left-content">
+                            <h4>ABOUT THE<em> PASSWORD</em> MANAGER</h4>
+                            <h5 align="justify">
+                                <br />
+                                By the end of 2021, 69% of the population would
+                                welcome the purchase of a password manager, even
+                                though one in five people would already be using
+                                it, according to Security.org.
+                                <br />
+                                <br />
+                                If this is true, it's not hard to understand why
+                                so many cyber attacks are successful!<br />
+                                <br />
+                                It is easy to understand the risk of such use
+                                when you know what a password manager is and how
+                                it works.<br />
+                                <br />
+                                <br />
+                                <h4>WHAT IS A PASSWORD MANAGER ?</h4>
+                                <br />
+                                There are several definitions of a password
+                                manager. We can talk about a computer program
+                                that allows users to store, generate and manage
+                                their passwords, about an encrypted digital safe
+                                that store all your passwords, but the best
+                                definition must be sought from the objective
+                                pursued by the companies that create them and
+                                promote their use.
+                                <br />
+                                <br />
+                                The underlying idea is to allow a user to have
+                                at any time and in any place all the passwords
+                                he uses by memorizing or retaining only one, the
+                                one which gives him access to all his passwords,
+                                i.e. the password manager.
+                                <br />
+                            </h5>
 
+                            <h4>
+                                WHERE DOES THE IDEA OF CREATING A PASSWORD
+                                MANAGER COME FROM?
+                            </h4>
+                            <h5 align="justify">
+                                <br />
+                                The main reason would be that users who rely on
+                                memory share similar passwords across multiple
+                                platforms or do not create passwords strong
+                                enough to withstand a half-hour brute force
+                                attack on their identity by a cybercriminal.
+                                <br />
+                                <br />
+                                As a result, those who rely on their memory to
+                                conduct their online activities would be twice
+                                as likely to have their identity or credentials
+                                attacked by cyber security threats.
+                                <br />
+                                <br />
+                                The following table shows in percentage terms
+                                the different means that are generally used to
+                                save passwords.
+                                <br />
+                                <br />
+                                <div align="center">
+                                    <img
+                                        src="assets/images/grafik password.png"
+                                        width="50%"
+                                        height="auto"
+                                    />
+                                </div>
+                                <h4><em>HOW DOES IT WORK?</em></h4>
+                                <br />
+                                Some password managers generate random
+                                passwords, made up of an unusual combination of
+                                anything accessible on a keyboard. They then
+                                assign these passwords to each of the user's
+                                online platforms, so that no single key can open
+                                all the locks. The safes also remember these
+                                passwords, so the user does not need to write
+                                them down. Just keep your phone safe and your
+                                safe under a local password (1).
+                                <br />
+                                <br />
+                                Other password managers record the username and
+                                password that is used when first logging in to a
+                                website or service and, on subsequent logins,
+                                will automatically fill in the login credentials
+                                with the recorded login information.
+                                <br />
+                                <br />
+                                Usually the passwords can be accessed from
+                                anywhere through the manager app or its browser
+                                extension (2).
+                                <br />
+                                <br />
 
-			</h5>
-			  
-			  <h4>WHERE DOES THE IDEA OF CREATING A PASSWORD MANAGER COME FROM?</h4>
-			  <h5 align="justify">
-							  <br>
-							  The main reason would be that users who rely on memory share similar passwords across multiple platforms or do not create passwords strong enough to withstand a half-hour brute force attack on their identity by a cybercriminal.
-								<br>
-				  <br>
-							As a result, those who rely on their memory to conduct their online activities would be twice as likely to have their identity or credentials attacked by cyber security threats.
-				  <br>
-				  <br>
-							The following table shows in percentage terms the different means that are generally used to save passwords.
-				  <br>
-				  <br>
-				  <div align="center">
-				  <img src="assets/images/grafik password.png" width="50%" height="auto">
-				  </div>
-				  <h4><em>HOW DOES IT WORK?</em> </h4>
-				  <br>
-				  Some password managers generate random passwords, made up of an unusual combination of anything accessible on a keyboard. They then assign these passwords to each of the user's online platforms, so that no single key can open all the locks. The safes also remember these passwords, so the user does not need to write them down. Just keep your phone safe and your safe under a local password (1).
-				  <br>
-				  <br>
-				  Other password managers record the username and password that is used when first logging in to a website or service and, on subsequent logins, will automatically fill in the login credentials with the recorded login information.
-  				  <br>
-				  <br>
-				  Usually the passwords can be accessed from anywhere through the manager app or its browser extension (2).
-				  <br>
-				  <br>
-				  
-				<h4>RISKS:</h4>
-				  <br>
-				  The main risk is that the password manager is hacked, which is not just a thought. History shows that this has already happened and that the credentials of users of this password manager have been compromised.
-				  <br>
-					This is how the hack of Passwordstate's update mechanism allowed hackers to potentially steal data (stored passwords, the ones for firewalls, VPNs, switches, local accounts and servers) from 29,000 companies! (3)
-				  <br>
-				Also, many LastPass users have reported that their master passwords have been compromised after receiving email warnings that someone tried to use them to log into their accounts from unknown locations. The email notifications also state that the login attempts were blocked because they were made from unknown locations around the world (4).
-				  <br>
-				A study by security.org of 1,077 people of all ages, genders and sexualities found that one in five people used a password manager, which equates to about 45 million people in the US. Of these, one in three people have had some part of their identity or online credentials stolen in a cyber security breach, which is very serious (5)
-				  
-				  <br>
-				  <br>
-				  <h4>OUR ADVICE:</h4>
-				  <br>
-				  The best advice we can give is to assume that security in general and IT security in particular is priceless in the sense that it is better to go to the trouble of creating and managing hard to crack passwords than to resort to the ease of having them generated by a third party.
-				  <br>
-				  <br>
-				  The golden rule of IT security is to keep control of your password creation and management, and not to entrust them to a password management company that uses the cloud, which is highly susceptible to attack.
-				  <br>
-				  <br>
-				  You can always keep your passwords on a separate piece of paper or outside of any internet connection. You can also use PT SYDECO's SydeCloud service which is an online file sharing service. Its server is hosted on your premises, protected by the ARCHANGEL integrated protection system. In addition, all communication is protected by a VPN whose server is a component of the integrated protection system.  No third party services are used, so any risk of external interference is eliminated.
-				  <br>
-				  <br>
-				  However, you should always bear in mind that the password you create should be a long string of upper and lower case letters, numbers, punctuation marks and non-alphanumeric characters so that it is difficult for someone else to guess and you do not have to change it periodically.
-				  <br>
-				  <br>
-				  <h4>TIP: </h4>
-				  <br>
-				  <br>
-				  Think of a sentence consisting of at least 4 words, each written in a different language, with some characters replaced by non-alphabetic ones.
-				  <br>
-				  <br>
-				  An example:
-				  <br>
-				  <br>
-				  1st step: Create a sentence of a minimum of 4 words that you will easily remember: "I speak four languages" 
-				  <br> 2nd step: translate 3 of these words, each in another language: “Je bicara куатре ennimi” and
-				  <br> 3rd step: change some characters BUT do not allocate the same value to the same character if it appears several times in the sentence.
-				  <br>
-				  <br>
-				  <br>
-				  <a href="https://securite.developpez.com/actu/329858/69-pourcent-de-la-population-se-montre-desormais-favorable-a-l-achat-de-son-propre-coffre-fort-de-mots-de-passe-tandis-qu-une-personne-sur-cinq-en-fait-deja-usage-selon-Security-org/">https://securite.developpez.com/actu/329858/69-pourcent-de-la-population-se-montre-desormais-favorable-a-l-achat-de-son-propre-coffre-fort-de-mots-de-passe-tandis-qu-une-personne-sur-cinq-en-fait-deja-usage-selon-Security-org/</a>
-				  <br>
-				  <br>
-				  <a href="https://www.cnet.com/tech/services-and-software/best-password-manager/">https://www.cnet.com/tech/services-and-software/best-password-manager/</a>
-				  <br>
-				  <br>
-				  <a href="https://www.developpez.com/actu/314599/Un-gestionnaire-de-mots-de-passe-a-permis-a-des-pirates-de-voler-potentiellement-les-donnees-de-29-000-entreprises-suite-a-un-piratage-du-mecanisme-de-mise-a-jour-de-Passwordstate/">https://www.developpez.com/actu/314599/Un-gestionnaire-de-mots-de-passe-a-permis-a-des-pirates-de-voler-potentiellement-les-donnees-de-29-000-entreprises-suite-a-un-piratage-du-mecanisme-de-mise-a-jour-de-Passwordstate/</a>
-				  <br>
-				  <br>
-				  <a href="https://securite.developpez.com/actu/329841/Les-utilisateurs-de-LastPass-ont-averti-que-leurs-mots-de-passe-principaux-etaient-compromis-mais-le-gestionnaire-de-mots-de-passe-affirme-qu-il-n-y-a-aucune-preuve-d-une-violation-de-donnees/">https://securite.developpez.com/actu/329841/Les-utilisateurs-de-LastPass-ont-averti-que-leurs-mots-de-passe-principaux-etaient-compromis-mais-le-gestionnaire-de-mots-de-passe-affirme-qu-il-n-y-a-aucune-preuve-d-une-violation-de-donnees/</a>
-				  <br>
-				  <br>
-				  <a href="https://www.security.org/digital-safety/password-manager-annual-report/">https://www.security.org/digital-safety/password-manager-annual-report/</a>
-				  <br>
-				  <br>
-				  <a href="Hal-01.html">Back</a>
-				  <br>
-				  <br>
-				  <br>
-				  <h4>PT SYDECO</h4>
-				  <a href="https://sydeco.co/ ">https://sydeco.co/ </a>
+                                <h4>RISKS:</h4>
+                                <br />
+                                The main risk is that the password manager is
+                                hacked, which is not just a thought. History
+                                shows that this has already happened and that
+                                the credentials of users of this password
+                                manager have been compromised.
+                                <br />
+                                This is how the hack of Passwordstate's update
+                                mechanism allowed hackers to potentially steal
+                                data (stored passwords, the ones for firewalls,
+                                VPNs, switches, local accounts and servers) from
+                                29,000 companies! (3)
+                                <br />
+                                Also, many LastPass users have reported that
+                                their master passwords have been compromised
+                                after receiving email warnings that someone
+                                tried to use them to log into their accounts
+                                from unknown locations. The email notifications
+                                also state that the login attempts were blocked
+                                because they were made from unknown locations
+                                around the world (4).
+                                <br />
+                                A study by security.org of 1,077 people of all
+                                ages, genders and sexualities found that one in
+                                five people used a password manager, which
+                                equates to about 45 million people in the US. Of
+                                these, one in three people have had some part of
+                                their identity or online credentials stolen in a
+                                cyber security breach, which is very serious (5)
 
+                                <br />
+                                <br />
+                                <h4>OUR ADVICE:</h4>
+                                <br />
+                                The best advice we can give is to assume that
+                                security in general and IT security in
+                                particular is priceless in the sense that it is
+                                better to go to the trouble of creating and
+                                managing hard to crack passwords than to resort
+                                to the ease of having them generated by a third
+                                party.
+                                <br />
+                                <br />
+                                The golden rule of IT security is to keep
+                                control of your password creation and
+                                management, and not to entrust them to a
+                                password management company that uses the cloud,
+                                which is highly susceptible to attack.
+                                <br />
+                                <br />
+                                You can always keep your passwords on a separate
+                                piece of paper or outside of any internet
+                                connection. You can also use PT SYDECO's
+                                SydeCloud service which is an online file
+                                sharing service. Its server is hosted on your
+                                premises, protected by the ARCHANGEL integrated
+                                protection system. In addition, all
+                                communication is protected by a VPN whose server
+                                is a component of the integrated protection
+                                system. No third party services are used, so any
+                                risk of external interference is eliminated.
+                                <br />
+                                <br />
+                                However, you should always bear in mind that the
+                                password you create should be a long string of
+                                upper and lower case letters, numbers,
+                                punctuation marks and non-alphanumeric
+                                characters so that it is difficult for someone
+                                else to guess and you do not have to change it
+                                periodically.
+                                <br />
+                                <br />
+                                <h4>TIP:</h4>
+                                <br />
+                                <br />
+                                Think of a sentence consisting of at least 4
+                                words, each written in a different language,
+                                with some characters replaced by non-alphabetic
+                                ones.
+                                <br />
+                                <br />
+                                An example:
+                                <br />
+                                <br />
+                                1st step: Create a sentence of a minimum of 4
+                                words that you will easily remember: "I speak
+                                four languages"
+                                <br />
+                                2nd step: translate 3 of these words, each in
+                                another language: “Je bicara куатре ennimi” and
+                                <br />
+                                3rd step: change some characters BUT do not
+                                allocate the same value to the same character if
+                                it appears several times in the sentence.
+                                <br />
+                                <br />
+                                <br />
+                                <a
+                                    href="https://securite.developpez.com/actu/329858/69-pourcent-de-la-population-se-montre-desormais-favorable-a-l-achat-de-son-propre-coffre-fort-de-mots-de-passe-tandis-qu-une-personne-sur-cinq-en-fait-deja-usage-selon-Security-org/"
+                                    >https://securite.developpez.com/actu/329858/69-pourcent-de-la-population-se-montre-desormais-favorable-a-l-achat-de-son-propre-coffre-fort-de-mots-de-passe-tandis-qu-une-personne-sur-cinq-en-fait-deja-usage-selon-Security-org/</a
+                                >
+                                <br />
+                                <br />
+                                <a
+                                    href="https://www.cnet.com/tech/services-and-software/best-password-manager/"
+                                    >https://www.cnet.com/tech/services-and-software/best-password-manager/</a
+                                >
+                                <br />
+                                <br />
+                                <a
+                                    href="https://www.developpez.com/actu/314599/Un-gestionnaire-de-mots-de-passe-a-permis-a-des-pirates-de-voler-potentiellement-les-donnees-de-29-000-entreprises-suite-a-un-piratage-du-mecanisme-de-mise-a-jour-de-Passwordstate/"
+                                    >https://www.developpez.com/actu/314599/Un-gestionnaire-de-mots-de-passe-a-permis-a-des-pirates-de-voler-potentiellement-les-donnees-de-29-000-entreprises-suite-a-un-piratage-du-mecanisme-de-mise-a-jour-de-Passwordstate/</a
+                                >
+                                <br />
+                                <br />
+                                <a
+                                    href="https://securite.developpez.com/actu/329841/Les-utilisateurs-de-LastPass-ont-averti-que-leurs-mots-de-passe-principaux-etaient-compromis-mais-le-gestionnaire-de-mots-de-passe-affirme-qu-il-n-y-a-aucune-preuve-d-une-violation-de-donnees/"
+                                    >https://securite.developpez.com/actu/329841/Les-utilisateurs-de-LastPass-ont-averti-que-leurs-mots-de-passe-principaux-etaient-compromis-mais-le-gestionnaire-de-mots-de-passe-affirme-qu-il-n-y-a-aucune-preuve-d-une-violation-de-donnees/</a
+                                >
+                                <br />
+                                <br />
+                                <a
+                                    href="https://www.security.org/digital-safety/password-manager-annual-report/"
+                                    >https://www.security.org/digital-safety/password-manager-annual-report/</a
+                                >
+                                <br />
+                                <br />
+                                <a href="Hal-01.html">Back</a>
+                                <br />
+                                <br />
+                                <br />
+                                <h4>PT SYDECO</h4>
+                                <a href="https://sydeco.co/ "
+                                    >https://sydeco.co/
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-				  
-			</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
+        <section class="section contact" data-section="section6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h2>Let’s Keep In Touch</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Do you need a working HTML contact-form script?
                 	
                     Please visit https://templatemo.com/contact page -->
-                    
-          <form name="contact sydeco.co" method="POST" data-netlify="true">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
+
+                        <form
+                            name="contact sydeco.co"
+                            method="POST"
+                            data-netlify="true"
+                        >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="email"
+                                            type="text"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Your Email"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <textarea
+                                            name="message"
+                                            rows="6"
+                                            class="form-control"
+                                            id="message"
+                                            placeholder="Your message..."
+                                            required=""
+                                        ></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <button
+                                            type="submit"
+                                            value="send Message"
+                                            class="button"
+                                        >
+                                            Send Message Now
+                                        </button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map">
+                            <div class="text-center">
+                                <img src="assets/images/admin-ajax (2).png" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" value="send Message" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
             </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-			  <div class="text-center">
-            	<img src="assets/images/admin-ajax (2).png">
-			  </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright 2020 by PT. SYDECO
-        </div>
-      </div>
-    </div>
-  </footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            <i class="fa fa-copyright"></i> Copyright 2020 by
+                            PT. SYDECO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/lightbox.js"></script>
+        <script src="assets/js/tabs.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/slick-slider.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script>
+            //according to loftblog tut
+            $(".nav li:first").addClass("active");
 
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
+            var showSection = function showSection(section, isAnimate) {
+                var direction = section.replace(/#/, ""),
+                    reqSection = $(".section").filter(
+                        '[data-section="' + direction + '"]'
+                    ),
+                    reqSectionPos = reqSection.offset().top - 0;
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+                if (isAnimate) {
+                    $("body, html").animate(
+                        {
+                            scrollTop: reqSectionPos,
+                        },
+                        800
+                    );
+                } else {
+                    $("body, html").scrollTop(reqSectionPos);
+                }
+            };
 
-        };
+            var checkSection = function checkSection() {
+                $(".section").each(function () {
+                    var $this = $(this),
+                        topEdge = $this.offset().top - 80,
+                        bottomEdge = topEdge + $this.height(),
+                        wScroll = $(window).scrollTop();
+                    if (topEdge < wScroll && bottomEdge > wScroll) {
+                        var currentId = $this.data("section"),
+                            reqLink = $("a").filter(
+                                "[href*=\\#" + currentId + "]"
+                            );
+                        reqLink
+                            .closest("li")
+                            .addClass("active")
+                            .siblings()
+                            .removeClass("active");
+                    }
+                });
+            };
 
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
+            $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
+                if ($(e.target).hasClass("external")) {
+                    return;
+                }
+                e.preventDefault();
+                $("#menu").removeClass("active");
+                showSection($(this).attr("href"), true);
+            });
 
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-</body>
+            $(window).scroll(function () {
+                checkSection();
+            });
+        </script>
+    </body>
 </html>

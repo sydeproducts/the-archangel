@@ -1,354 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous"
+        />
+        <link rel="icon" href="assets/images/admin-ajax (2).png" />
 
-  <head>
+        <title>IT-SECURITY</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	  <link rel="icon" href="assets/images/admin-ajax (2).png">
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>IT-SECURITY</title>
-    
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/css/templatemo-grad-school.css" />
+        <link rel="stylesheet" href="assets/css/owl.css" />
+        <link rel="stylesheet" href="assets/css/lightbox.css" />
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-	  
-	  <style>
-		  
-		  .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+        <style>
+            .dropbtn {
+                background-color: #04aa6d;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
 
-.dropdown-content a:hover {background-color: #ddd;}
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
 
-.dropdown:hover .dropdown-content {display: block;}
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-	
-	.unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-		
-		
-	  </style>
-<!--
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+
+            .unselectable {
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
+        <!--
     
 TemplateMo 557 Grad School
 
 https://templatemo.com/tm-557-grad-school
 
 -->
-  </head>
+    </head>
 
-<body div class="unselectable">
-<script language=JavaScript>
+    <body div class="unselectable">
+        <script language="JavaScript">
+            //Disable right mouse click Script
+            //By Geek Site.in
 
+            var message = "Disabled Right Click!";
 
-//Disable right mouse click Script
-//By Geek Site.in
+            ///////////////////////////////////
+            function clickIE4() {
+                if (event.button == 2) {
+                    alert(message);
+                    return false;
+                }
+            }
 
+            function clickNS4(e) {
+                if (
+                    document.layers ||
+                    (document.getElementById && !document.all)
+                ) {
+                    if (e.which == 2 || e.which == 3) {
+                        alert(message);
+                        return false;
+                    }
+                }
+            }
 
-var message="Disabled Right Click!";
+            if (document.layers) {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = clickNS4;
+            } else if (document.all && !document.getElementById) {
+                document.onmousedown = clickIE4;
+            }
 
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
+            document.oncontextmenu = new Function(
+                "alert(message);return false"
+            );
 
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
+            // -->
+        </script>
 
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
+        <!--header-->
 
-document.oncontextmenu=new Function("alert(message);return false")
+        <!--header-->
+        <header class="main-header clearfix" role="header">
+            <div class="logo">
+                <a href="/"
+                    ><em>Sydeco</em>
+                    <img src="assets/images/icon browser  2.png"
+                /></a>
+            </div>
+            <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+            <nav id="menu" class="main-nav" role="navigation">
+                <ul class="main-menu">
+                    <li>
+                        <a href="/" rel="sponsored" class="external">Home</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">About</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="../About/About-Greeting/About-Greeting.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Greeting</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Company-Profile/About-Company-Profile.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Profile</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Company-Values/About-Company-Values.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Company Values</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../About/About-Code-of-Conduct/About-Code-of-Conduct.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Code of Conduct</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../TermsofUse.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Terms of Use</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#section2">Products</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="https://syde.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >All-In-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sp-one.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SP-One</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://secure-system-transmission.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SST</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://the-archangel.co/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Archangel</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://sydechat.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeChat</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://syde.co/sydecloud/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >SydeCloud</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#section5">Video</a></li> -->
+                    <li class="has-submenu">
+                        <a href="#section2">Blog</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a
+                                    href="https://sydeconewsblog.blogspot.com/"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Blooger</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Hal-01.html"
+                                    rel="sponsored"
+                                    class="external"
+                                    >Artikel</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#section6">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-// --> 
-</script>
-	
-   
-  <!--header-->
-  
-  <!--header-->
- 	<header class="main-header clearfix" role="header">
-    <div class="logo">
-      <a href="../index.html"><em>Sydeco</em> <img src="assets/images/icon browser  2.png"></a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="../index.html" rel="sponsored" class="external">Home</a></li>
-        <li class="has-submenu"><a href="#section2">About</a>
-          <ul class="sub-menu">
-            <li><a href="../About/About-Greeting/About-Greeting.html" rel="sponsored" class="external">Greeting</a></li>
-            <li><a href="../About/About-Company-Profile/About-Company-Profile.html" rel="sponsored" class="external">Company Profile</a></li>
-            <li><a href="../About/About-Company-Values/About-Company-Values.html" rel="sponsored" class="external">Company Values</a></li>
-            <li><a href="../About/About-Code-of-Conduct/About-Code-of-Conduct.html" rel="sponsored" class="external">Code of Conduct</a></li>
-			<li><a href="../TermsofUse.html" rel="sponsored" class="external">Terms of Use</a></li>
-          </ul>
-        </li>
-		<li class="has-submenu"><a href="#section2">Products</a>
-          <ul class="sub-menu">
-            <li><a href="https://syde.co/" rel="sponsored" class="external">All-In-One</a></li>
-			<li><a href="https://sp-one.co/" rel="sponsored" class="external">SP-One</a></li>
-			<li><a href="https://secure-system-transmission.com/" rel="sponsored" class="external">SST</a></li>
-			<li><a href="https://the-archangel.co/" rel="sponsored" class="external">Archangel</a></li>
-			<li><a href="https://sydechat.com/" rel="sponsored" class="external">SydeChat</a></li>
-			<li><a href="https://syde.co/sydecloud/" rel="sponsored" class="external">SydeCloud</a></li>
-          </ul>
-        </li>
-        <!-- <li><a href="#section5">Video</a></li> -->
-		  <li class="has-submenu"><a href="#section2">Blog</a>
-          <ul class="sub-menu">
-            <li><a href="https://sydeconewsblog.blogspot.com/" rel="sponsored" class="external">Blooger</a></li>
-			<li><a href="Hal-01.html" rel="sponsored" class="external">Artikel</a></li>
-          </ul>
-        </li>
-        <li><a href="#section6">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-	
-    <!-- ***** Header Area End ***** -->
+        <!-- ***** Header Area End ***** -->
 
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center col-lg-12">
-          <div class="left-content">
-			  <br>
-			  <br>
-			  <div class="dropdown">
-			  <button class="dropbtn">Select a language</button>
-			  <div class="dropdown-content">
-				<a href="artikel 03.html">England</a>
-				<a href="artikel 03-prancis.html">French</a>
-				<a href="#">Indonesia</a>
-			  </div>
-			</div>
-			  <br>
-			  <br>
-            <h4>EASE <em> v</em> SAFETY</h4>
-			  <h5 align="justify">
-							  <br>
-							  Although we are in different registers, we can say that just as the BEST is the enemy of GOOD, EASE is the enemy of SECURITY. Two different registers, in fact, since the search for BETTER is the fact of wanting to surpass oneself in the accomplishment of a task and/or in the goal sought, whereas EASE, an expression of laziness, is a destructive element of SAFETY.
-								<br>
-				  <br>
-							This reflection also makes sense when applied to the field of computer security.<br>
-				  <br>
-							For example, succumbing to the easy way out by choosing an easy-to-remember password or relying on a third party (Password Manager) to create and manage passwords is the exact opposite of what should be done when you want to prioritise the security of your data or your information system.<br>
-<br>
-							The same is true of the so-called HYPER-CONVERGENT systems that offer a global solution to meet all the IT needs, including the security needs, of its customers. These systems, which are in flagrant contradiction with MICRO SEGMENTATION, the golden rule of any information or industrial security architecture, lead to many disasters. We have seen this with SolarWinds, or with Kaseya, to mention only the best known cases and their tens of thousands of victims. <br>
-<br>
-							When a virus penetrates a hyper-convergent system, all the doors of the system are open to it, whereas if the system is built according to the so-called micro-segmentation architecture, the virus will only be able to attack the part of the system that it has managed to penetrate.
-				  <br>
-				  <br>
-				  It is therefore a choice that every Internet user has to make, between the search for ease and the search for computer security, knowing that in both cases there is a price to pay: While on the one hand, the easy way out risks causing financial damage that can be very significant (loss of data, money, Ransomware,,,), on the other hand, the search for security involves personal investment, in the case of passwords, or financial costs (investments), in the case of the construction of the computer network.
-				  <br>
-In any case, it must be remembered that the human factor (the user) is the weakest link in the security of any computer system and that it is necessary to protect him when he is at home as much as when he is in a professional environment.
-				  <br>
-				  <br>
-If an antivirus is necessary, an intelligent firewall is even more so, especially if it is coupled with a VPN server that does not rely on any external party. This is the protection that PT SYDECO offers with its PICCOLO <a href="https://the-archangel.co/spesifications.html">(https://the-archangel.co/spesifications.html)</a>  which protects the user at home or any IoT or small business, thanks to its intelligent firewall and VPN server.
-				  <br>
-				  <br>
+        <section class="section video" data-section="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center col-lg-12">
+                        <div class="left-content">
+                            <br />
+                            <br />
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    Select a language
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="artikel 03.html">England</a>
+                                    <a href="artikel 03-prancis.html">French</a>
+                                    <a href="#">Indonesia</a>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <h4>EASE <em> v</em> SAFETY</h4>
+                            <h5 align="justify">
+                                <br />
+                                Although we are in different registers, we can
+                                say that just as the BEST is the enemy of GOOD,
+                                EASE is the enemy of SECURITY. Two different
+                                registers, in fact, since the search for BETTER
+                                is the fact of wanting to surpass oneself in the
+                                accomplishment of a task and/or in the goal
+                                sought, whereas EASE, an expression of laziness,
+                                is a destructive element of SAFETY.
+                                <br />
+                                <br />
+                                This reflection also makes sense when applied to
+                                the field of computer security.<br />
+                                <br />
+                                For example, succumbing to the easy way out by
+                                choosing an easy-to-remember password or relying
+                                on a third party (Password Manager) to create
+                                and manage passwords is the exact opposite of
+                                what should be done when you want to prioritise
+                                the security of your data or your information
+                                system.<br />
+                                <br />
+                                The same is true of the so-called
+                                HYPER-CONVERGENT systems that offer a global
+                                solution to meet all the IT needs, including the
+                                security needs, of its customers. These systems,
+                                which are in flagrant contradiction with MICRO
+                                SEGMENTATION, the golden rule of any information
+                                or industrial security architecture, lead to
+                                many disasters. We have seen this with
+                                SolarWinds, or with Kaseya, to mention only the
+                                best known cases and their tens of thousands of
+                                victims. <br />
+                                <br />
+                                When a virus penetrates a hyper-convergent
+                                system, all the doors of the system are open to
+                                it, whereas if the system is built according to
+                                the so-called micro-segmentation architecture,
+                                the virus will only be able to attack the part
+                                of the system that it has managed to penetrate.
+                                <br />
+                                <br />
+                                It is therefore a choice that every Internet
+                                user has to make, between the search for ease
+                                and the search for computer security, knowing
+                                that in both cases there is a price to pay:
+                                While on the one hand, the easy way out risks
+                                causing financial damage that can be very
+                                significant (loss of data, money,
+                                Ransomware,,,), on the other hand, the search
+                                for security involves personal investment, in
+                                the case of passwords, or financial costs
+                                (investments), in the case of the construction
+                                of the computer network.
+                                <br />
+                                In any case, it must be remembered that the
+                                human factor (the user) is the weakest link in
+                                the security of any computer system and that it
+                                is necessary to protect him when he is at home
+                                as much as when he is in a professional
+                                environment.
+                                <br />
+                                <br />
+                                If an antivirus is necessary, an intelligent
+                                firewall is even more so, especially if it is
+                                coupled with a VPN server that does not rely on
+                                any external party. This is the protection that
+                                PT SYDECO offers with its PICCOLO
+                                <a
+                                    href="https://the-archangel.co/spesifications.html"
+                                    >(https://the-archangel.co/spesifications.html)</a
+                                >
+                                which protects the user at home or any IoT or
+                                small business, thanks to its intelligent
+                                firewall and VPN server.
+                                <br />
+                                <br />
+                            </h5>
+                            <h5>
+                                <br />
+                                <br />
+                                <br />
+                                <a href="Hal-01.html">Back</a>
+                                <br />
+                                <br />
+                                <h4>PT SYDECO</h4>
+                                <a href="https://sydeco.co/ "
+                                    >https://sydeco.co/
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-			</h5>
-			  <h5>
-				  <br>
-				  <br>
-				  <br>
-				  <a href="Hal-01.html">Back</a>
-				  <br>
-				  <br>
-				  <h4>PT SYDECO</h4>
-				  <a href="https://sydeco.co/ ">https://sydeco.co/ </a>
-
-
-
-				  
-			</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
+        <section class="section contact" data-section="section6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h2>Let’s Keep In Touch</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Do you need a working HTML contact-form script?
                 	
                     Please visit https://templatemo.com/contact page -->
-                    
-          <form name="contact sydeco.co" method="POST" data-netlify="true">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
+
+                        <form
+                            name="contact sydeco.co"
+                            method="POST"
+                            data-netlify="true"
+                        >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                    <fieldset>
+                                        <input
+                                            name="email"
+                                            type="text"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Your Email"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <textarea
+                                            name="message"
+                                            rows="6"
+                                            class="form-control"
+                                            id="message"
+                                            placeholder="Your message..."
+                                            required=""
+                                        ></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <button
+                                            type="submit"
+                                            value="send Message"
+                                            class="button"
+                                        >
+                                            Send Message Now
+                                        </button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map">
+                            <div class="text-center">
+                                <img src="assets/images/admin-ajax (2).png" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" value="send Message" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
             </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-			  <div class="text-center">
-            	<img src="assets/images/admin-ajax (2).png">
-			  </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright 2020 by PT. SYDECO
-        </div>
-      </div>
-    </div>
-  </footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            <i class="fa fa-copyright"></i> Copyright 2020 by
+                            PT. SYDECO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/lightbox.js"></script>
+        <script src="assets/js/tabs.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/slick-slider.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script>
+            //according to loftblog tut
+            $(".nav li:first").addClass("active");
 
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
+            var showSection = function showSection(section, isAnimate) {
+                var direction = section.replace(/#/, ""),
+                    reqSection = $(".section").filter(
+                        '[data-section="' + direction + '"]'
+                    ),
+                    reqSectionPos = reqSection.offset().top - 0;
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+                if (isAnimate) {
+                    $("body, html").animate(
+                        {
+                            scrollTop: reqSectionPos,
+                        },
+                        800
+                    );
+                } else {
+                    $("body, html").scrollTop(reqSectionPos);
+                }
+            };
 
-        };
+            var checkSection = function checkSection() {
+                $(".section").each(function () {
+                    var $this = $(this),
+                        topEdge = $this.offset().top - 80,
+                        bottomEdge = topEdge + $this.height(),
+                        wScroll = $(window).scrollTop();
+                    if (topEdge < wScroll && bottomEdge > wScroll) {
+                        var currentId = $this.data("section"),
+                            reqLink = $("a").filter(
+                                "[href*=\\#" + currentId + "]"
+                            );
+                        reqLink
+                            .closest("li")
+                            .addClass("active")
+                            .siblings()
+                            .removeClass("active");
+                    }
+                });
+            };
 
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
+            $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
+                if ($(e.target).hasClass("external")) {
+                    return;
+                }
+                e.preventDefault();
+                $("#menu").removeClass("active");
+                showSection($(this).attr("href"), true);
+            });
 
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-</body>
+            $(window).scroll(function () {
+                checkSection();
+            });
+        </script>
+    </body>
 </html>
